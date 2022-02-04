@@ -4,37 +4,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML and CSS</title>
+  <title>Document</title>
 </head>
 <body>
-  <table>
-    <caption>Full Stack</сaption>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th colspan="4">Programming Language</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Frontend</td>
-        <td>HTML</td>
-        <td>CSS</td>
-        <td>JavaScript</td>
-      </tr>
-      <tr>
-        <td>Backend</td>
-        <td>NodeJS</td>
-        <td>PHP</td>
-        <td>Python</td>s
-      </tr>
-      <tr>
-        <td>Datebase</td>
-        <td colspan="2">MongoDB</td>
-        <td>MySQl</td>
-      </tr>
-    </tbody>
-  </table>
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="firstname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="lastname">
+  </form>
+
+  <br>
+
+  <label for="country">Country</label>
+  <Select name="country">
+    <option value="usa">USA</option>
+    <option value="india">India</option>
+    <option value="uzb">Uzbekistan</option>
+  </Select>
 </body>
 </html>
